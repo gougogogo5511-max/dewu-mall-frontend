@@ -1,6 +1,10 @@
 # dewu-mall-front
 
-一个基于 Vue 3 + Vite + TailwindCSS 的移动端优先类得物电商前端项目。项目使用本地 mock 数据模拟商品、分类、购物车、订单、用户信息等业务流程，不依赖后端服务，适合作为电商前端课程设计、作品集 Demo 或 Vue3 练习项目。
+## 项目简介
+
+dewu-mall-front 是一个基于 Vue 3、Vite 和 TailwindCSS 开发的移动端电商前端课程设计项目。项目参考得物 App 的电商视觉风格，采用移动端优先布局，包含首页、分类、商品列表、商品详情、搜索、购物车、订单和个人中心等完整页面流程。
+
+项目不依赖后端服务，商品、购物车、订单和用户相关数据均通过本地 mock 数据与 LocalStorage 模拟，适合作为前端课程大作业提交与展示。
 
 ## 技术栈
 
@@ -9,36 +13,43 @@
 - Vue Router
 - TailwindCSS
 - JavaScript
-- LocalStorage 本地持久化
+- LocalStorage
 - 本地 mock 数据
 
 ## 页面功能
 
-- 首页：顶部搜索栏、横向分类 Tab、服务保障标签、Banner、商品瀑布流。
-- 分类页：左侧分类栏，右侧品牌宫格和商品列表。
-- 商品列表页：分类筛选、关键词筛选、综合/销量/价格排序。
-- 商品详情页：商品轮播图、价格、标签、尺码选择、收藏、加入购物车、立即购买。
-- 搜索页：关键词输入、热门搜索、实时商品筛选结果。
-- 购物车页：多商品展示、勾选、全选、数量加减、删除、底部结算栏。
+- 首页：顶部搜索栏、横向分类 Tab、正品保障服务标签、Banner、商品瀑布流。
+- 分类页：左侧分类栏、右侧品牌宫格和分类商品展示。
+- 商品列表页：按分类和关键词展示商品，支持综合、销量、价格排序。
+- 商品详情页：商品图片、价格、标签、尺码选择、收藏、加入购物车和立即购买。
+- 搜索页：关键词搜索、热门搜索点击填入、搜索结果实时筛选。
+- 购物车页：商品勾选、全选、数量加减、删除商品、底部结算栏。
 - 订单确认页：收货地址、商品清单、金额汇总、提交订单。
-- 订单列表页：订单卡片、状态筛选、订单状态切换。
-- 个人中心页：用户信息、订单入口、收藏、购物车、鉴别、优惠券、地址管理、浏览历史入口。
-- 登录页：本地 mock 登录流程。
+- 我的订单页：订单卡片展示、订单状态筛选和切换。
+- 个人中心页：用户信息、订单入口、我的鉴别、优惠券、地址管理、浏览历史等入口。
+- 登录页：本地模拟登录流程。
 
 ## 运行步骤
 
+安装依赖：
+
 ```bash
 npm install
+```
+
+启动开发环境：
+
+```bash
 npm run dev
 ```
 
-默认开发地址：
+开发环境默认访问地址：
 
 ```text
 http://127.0.0.1:5173/
 ```
 
-生产构建：
+生产环境构建：
 
 ```bash
 npm run build
@@ -55,8 +66,9 @@ npm run preview
 ```text
 dewu-mall-front/
 ├─ public/
-│  └─ images/
-│     └─ products/        # 本地商品图片资源
+│  ├─ images/
+│  │  └─ products/        # 本地商品图片资源
+│  └─ screenshots/        # 项目页面截图
 ├─ src/
 │  ├─ components/         # 公共组件
 │  ├─ layouts/            # 页面布局
@@ -72,56 +84,54 @@ dewu-mall-front/
 └─ vite.config.js
 ```
 
-## 项目截图位置
+## 项目截图
 
-建议将项目截图保存到：
+- 首页
 
-```text
-public/screenshots/
-```
+![首页](public/screenshots/home.png)
 
-推荐截图：
+- 分类页
 
-- 首页：`public/screenshots/home.png`
-- 分类页：`public/screenshots/category.png`
-- 商品详情页：`public/screenshots/product-detail.png`
-- 购物车页：`public/screenshots/cart.png`
-- 个人中心页：`public/screenshots/profile.png`
+![分类页](public/screenshots/category.png)
 
-在 README 中引用截图示例：
+- 商品列表页
 
-```md
-![首页截图](public/screenshots/home.png)
-```
+![商品列表页](public/screenshots/products.png)
 
-## GitHub 提交说明
+- 商品详情页
 
-初始化 Git 仓库：
+![商品详情页](public/screenshots/product-detail.png)
 
-```bash
-git init
-git add .
-git commit -m "feat: init dewu mall front project"
-```
+- 搜索页
 
-关联远程仓库：
+![搜索页](public/screenshots/search.png)
 
-```bash
-git remote add origin https://github.com/your-username/dewu-mall-front.git
-git branch -M main
-git push -u origin main
-```
+- 购物车页
 
-后续提交建议：
+![购物车页](public/screenshots/cart.png)
 
-```bash
-git add .
-git commit -m "feat: optimize mall pages and interactions"
-git push
-```
+- 订单确认页
+
+![订单确认页](public/screenshots/checkout.png)
+
+- 我的订单页
+
+![我的订单页](public/screenshots/orders.png)
+
+- 个人中心页
+
+![个人中心页](public/screenshots/profile.png)
+
+- 登录页
+
+![登录页](public/screenshots/login.png)
+
+## 源码地址
+
+https://github.com/gougogogo5511-max/dewu-mall-frontend
 
 ## 说明
 
-- 当前项目为纯前端 Demo，数据来自 `src/mock/data.js`。
-- 购物车、收藏、订单、用户信息等状态使用 LocalStorage 做本地持久化。
-- 商品图片部分使用本地资源，部分使用公开图片链接，仅用于前端页面展示。
+- 当前项目为纯前端课程设计项目。
+- 数据来自 `src/mock/data.js`。
+- 商品、购物车、收藏、订单、用户信息等通过本地 mock 数据和 LocalStorage 模拟。
