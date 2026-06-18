@@ -40,11 +40,8 @@ export const products = [
     condition: '全新',
     tags: ['95分', '闪电直发', '正品保障', '低帮AJ'],
     sizes: ['38.5', '39', '40', '40.5', '41', '42', '42.5', '43', '44'],
-    image: 'https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1001.jpg',
+    images: ['/images/products/p1001.jpg'],
     description: '以 Air Jordan 1 Low OG 热门配色为参考，黑白红撞色适合日常街头穿搭。本地 mock 数据，仅用于页面展示。',
   },
   {
@@ -58,11 +55,8 @@ export const products = [
     condition: '全新',
     tags: ['热门配色', '校园通勤', '正品保障'],
     sizes: ['35.5', '36', '37.5', '38.5', '40', '41', '42', '43', '44'],
-    image: 'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1002.jpg',
+    images: ['/images/products/p1002.jpg'],
     description: 'Dunk Low 常青黑白配色风格，低饱和好搭配，适合通勤、校园与情侣鞋穿搭。',
   },
   {
@@ -76,11 +70,8 @@ export const products = [
     condition: '全新',
     tags: ['德训鞋', '复古足球', '明星同款'],
     sizes: ['36', '37', '38', '39', '40', '41', '42', '43', '44'],
-    image: 'https://images.unsplash.com/photo-1543508282-6319a3e2621f?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1543508282-6319a3e2621f?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1003.jpg',
+    images: ['/images/products/p1003.jpg'],
     description: 'Samba OG 经典复古足球鞋线条，薄底比例清爽，是近年得物风格穿搭里很常见的百搭单品。',
   },
   {
@@ -94,11 +85,8 @@ export const products = [
     condition: '全新',
     tags: ['老爹鞋', '银灰配色', '舒适通勤'],
     sizes: ['36', '37', '38', '39.5', '40', '41.5', '42', '43'],
-    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1004.jpg',
+    images: ['/images/products/p1004.jpg'],
     description: '参考 New Balance 530 银灰复古跑鞋热度，轻量缓震和复古线条兼具，适合日常通勤。',
   },
   {
@@ -112,11 +100,8 @@ export const products = [
     condition: '全新',
     tags: ['薄底复古', '日系穿搭', '正品保障'],
     sizes: ['35.5', '36', '37', '38', '39', '40', '41', '42', '43'],
-    image: 'https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1005.jpg',
+    images: ['/images/products/p1005.jpg'],
     description: 'Mexico 66 线条轻薄，黄黑复古感强，适合日系、City Boy 和基础款穿搭。',
   },
   {
@@ -130,11 +115,8 @@ export const products = [
     condition: '全新',
     tags: ['户外机能', 'GORE-TEX', '热门硬壳'],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
-    image: 'https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1006.jpg',
+    images: ['/images/products/p1006.jpg'],
     description: '参考始祖鸟 Beta Jacket 机能硬壳，黑色通勤与户外都好搭，页面数据为 mock 展示。',
   },
   {
@@ -148,11 +130,8 @@ export const products = [
     condition: '全新',
     tags: ['北面1996', '冬季热卖', '保暖蓬松'],
     sizes: ['S', 'M', 'L', 'XL'],
-    image: 'https://images.unsplash.com/photo-1548883354-94bcfe321cbb?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1548883354-94bcfe321cbb?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1007.jpg',
+    images: ['/images/products/p1007.jpg'],
     description: '参考北面 1996 Nuptse 热门羽绒服版型，短款廓形和高蓬松感适合冬季街头穿搭。',
   },
   {
@@ -166,11 +145,8 @@ export const products = [
     condition: '全新',
     tags: ['工装夹克', '重磅帆布', '复古廓形'],
     sizes: ['S', 'M', 'L', 'XL'],
-    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1008.jpg',
+    images: ['/images/products/p1008.jpg'],
     description: 'Detroit Jacket 风格硬朗，短款工装比例适合叠穿，和宽松牛仔裤、工装裤都协调。',
   },
   {
@@ -184,11 +160,8 @@ export const products = [
     condition: '全新',
     tags: ['街头品牌', '重磅卫衣', '热门图案'],
     sizes: ['S', 'M', 'L', 'XL'],
-    image: 'https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1009.jpg',
+    images: ['/images/products/p1009.jpg'],
     description: '参考 Stussy 热门卫衣线，宽松版型与街头图案适合秋冬内搭外穿。',
   },
   {
@@ -202,11 +175,8 @@ export const products = [
     condition: '全新',
     tags: ['小包', '通勤收纳', '闪电直发'],
     sizes: ['均码'],
-    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1010.jpg',
+    images: ['/images/products/p1010.jpg'],
     description: '参考 Nike Heritage 小包，轻量日常收纳，适合运动、通勤与短途出行。',
   },
   {
@@ -220,11 +190,8 @@ export const products = [
     condition: '全新',
     tags: ['双肩包', '电脑仓', '学院风'],
     sizes: ['25L'],
-    image: 'https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1011.jpg',
+    images: ['/images/products/p1011.jpg'],
     description: 'Herschel 经典学院风双肩包，容量充足，适合学生党和通勤用户。',
   },
   {
@@ -238,11 +205,8 @@ export const products = [
     condition: '全新',
     tags: ['黑武士', '八角表盘', '防震防水'],
     sizes: ['45mm'],
-    image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1012.jpg',
+    images: ['/images/products/p1012.jpg'],
     description: '参考 G-SHOCK GA-2100 黑武士，八角表盘辨识度高，运动与街头穿搭都适配。',
   },
   {
@@ -256,11 +220,8 @@ export const products = [
     condition: '全新',
     tags: ['主动降噪', 'USB-C', '苹果生态'],
     sizes: ['标准版'],
-    image: 'https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1013.jpg',
+    images: ['/images/products/p1013.jpg'],
     description: '参考 AirPods Pro 2 USB-C，主动降噪、通透模式和苹果设备快速连接适合日常使用。',
   },
   {
@@ -274,11 +235,8 @@ export const products = [
     condition: '全新',
     tags: ['头戴降噪', '通勤神器', '长续航'],
     sizes: ['均码'],
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1014.jpg',
+    images: ['/images/products/p1014.jpg'],
     description: '参考 Sony WH-1000XM5，通勤、办公和长途出行都适合的头戴式降噪耳机。',
   },
   {
@@ -292,11 +250,8 @@ export const products = [
     condition: '全新',
     tags: ['高速吹风', '礼物精选', '精致生活'],
     sizes: ['标准套装'],
-    image: 'https://images.unsplash.com/photo-1522338140262-f46f5913618a?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1522338140262-f46f5913618a?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1015.jpg',
+    images: ['/images/products/p1015.jpg'],
     description: '参考 Dyson Supersonic 高速吹风机，礼物属性强，也适合作为美妆数码类商品展示。',
   },
   {
@@ -310,11 +265,8 @@ export const products = [
     condition: '全新',
     tags: ['热门色号', '显白红棕', '礼盒可选'],
     sizes: ['2.2g'],
-    image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=900&q=85',
-    images: [
-      'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85',
-    ],
+    image: '/images/products/p1016.jpg',
+    images: ['/images/products/p1016.jpg'],
     description: '参考 YSL 小金条热门红棕色系，妆效利落，适合日常通勤和节日礼赠。',
   },
   {
@@ -328,8 +280,8 @@ export const products = [
     condition: '全新',
     tags: ['豆沙玫瑰', '通勤色', '正品保障'],
     sizes: ['3.5g'],
-    image: '/images/products/p1017-real.jpg',
-    images: ['/images/products/p1017-real.jpg'],
+    image: '/images/products/p1017.jpg',
+    images: ['/images/products/p1017.jpg'],
     description: '参考 Dior 经典唇膏热门色系，豆沙玫瑰调更适合日常气质妆容。',
   },
   {
@@ -343,8 +295,8 @@ export const products = [
     condition: '全新',
     tags: ['复古正红', '经典色号', '哑光妆效'],
     sizes: ['3g'],
-    image: '/images/products/p1018-real.jpg',
-    images: ['/images/products/p1018-real.jpg'],
+    image: '/images/products/p1018.jpg',
+    images: ['/images/products/p1018.jpg'],
     description: '参考 M·A·C Ruby Woo 经典正红色，显色度高，适合复古妆容和重要场合。',
   },
 ]

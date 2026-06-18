@@ -1,7 +1,7 @@
 <template>
   <RouterLink :to="'/product/' + product.id" class="block overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-zinc-100">
-    <div class="relative aspect-[3/3.35] overflow-hidden bg-zinc-100">
-      <img :src="product.image" :alt="product.title" class="h-full w-full object-cover" />
+    <div class="relative overflow-hidden bg-zinc-100">
+      <img :src="product.image" :alt="product.title" class="w-full h-56 object-cover" />
       <span class="absolute left-2 top-2 rounded-full bg-black/75 px-2 py-0.5 text-[10px] font-semibold text-white">{{ product.condition }}</span>
       <span class="absolute bottom-2 left-2 rounded-full bg-neon px-2 py-0.5 text-[10px] font-black text-zinc-950">闪电直发</span>
     </div>
