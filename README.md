@@ -66,9 +66,9 @@ npm run preview
 ```text
 dewu-mall-front/
 ├─ public/
-│  ├─ images/
-│  │  └─ products/        # 本地商品图片资源
-│  └─ screenshots/        # 项目页面截图
+│  └─ images/
+│     └─ products/        # 本地商品图片资源
+├─ screenshots/           # 项目页面截图
 ├─ src/
 │  ├─ components/         # 公共组件
 │  ├─ layouts/            # 页面布局
@@ -86,49 +86,35 @@ dewu-mall-front/
 
 ## 项目截图
 
-- 首页
+### 首页
+![首页](./screenshots/home.png)
 
-![首页](public/screenshots/home.png)
+### 分类页
+![分类页](./screenshots/category.png)
 
-- 分类页
+### 商品列表页
+![商品列表页](./screenshots/product-list.png)
 
-![分类页](public/screenshots/category.png)
+### 商品详情页
+![商品详情页](./screenshots/product-detail.png)
 
-- 商品列表页
+### 搜索页
+![搜索页](./screenshots/search.png)
 
-![商品列表页](public/screenshots/products.png)
+### 购物车页
+![购物车页](./screenshots/cart.png)
 
-- 商品详情页
+### 订单确认页
+![订单确认页](./screenshots/checkout.png)
 
-![商品详情页](public/screenshots/product-detail.png)
+### 我的订单页
+![我的订单页](./screenshots/orders.png)
 
-- 搜索页
+### 个人中心页
+![个人中心页](./screenshots/profile.png)
 
-![搜索页](public/screenshots/search.png)
-
-- 购物车页
-
-![购物车页](public/screenshots/cart.png)
-
-- 订单确认页
-
-![订单确认页](public/screenshots/checkout.png)
-
-- 我的订单页
-
-![我的订单页](public/screenshots/orders.png)
-
-- 个人中心页
-
-![个人中心页](public/screenshots/profile.png)
-
-- 登录页
-
-![登录页](public/screenshots/login.png)
-
-## 源码地址
-
-https://github.com/gougogogo5511-max/dewu-mall-frontend
+### 登录页
+![登录页](./screenshots/login.png)
 
 ## 说明
 
