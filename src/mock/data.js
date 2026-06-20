@@ -265,8 +265,8 @@ export const products = [
     condition: '全新',
     tags: ['热门色号', '显白红棕', '礼盒可选'],
     sizes: ['2.2g'],
-    image: '/images/products/p1016.jpg',
-    images: ['/images/products/p1016.jpg'],
+    image: '/images/products/beauty-ysl.jpg',
+    images: ['/images/products/beauty-ysl.jpg'],
     description: '参考 YSL 小金条热门红棕色系，妆效利落，适合日常通勤和节日礼赠。',
   },
   {
@@ -280,8 +280,8 @@ export const products = [
     condition: '全新',
     tags: ['豆沙玫瑰', '通勤色', '正品保障'],
     sizes: ['3.5g'],
-    image: '/images/products/p1017.jpg',
-    images: ['/images/products/p1017.jpg'],
+    image: '/images/products/beauty-dior.jpg',
+    images: ['/images/products/beauty-dior.jpg'],
     description: '参考 Dior 经典唇膏热门色系，豆沙玫瑰调更适合日常气质妆容。',
   },
   {
@@ -295,8 +295,8 @@ export const products = [
     condition: '全新',
     tags: ['复古正红', '经典色号', '哑光妆效'],
     sizes: ['3g'],
-    image: '/images/products/p1018.jpg',
-    images: ['/images/products/p1018.jpg'],
+    image: '/images/products/beauty-mac.jpg',
+    images: ['/images/products/beauty-mac.jpg'],
     description: '参考 M·A·C Ruby Woo 经典正红色，显色度高，适合复古妆容和重要场合。',
   },
 ]
